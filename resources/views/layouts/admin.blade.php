@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-
+    @livewireStyles
 </head>
 <body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
 <div class="wrapper">
@@ -147,8 +147,6 @@
     <div class="content-wrapper">
 
         @yield('content')
-
-
     </div>
     <!-- /.content-wrapper -->
 
@@ -168,6 +166,7 @@
     </footer>
 </div>
 
+@livewireScripts
 <script src="{{ asset('js/app.js') }}" defer></script>
 </body>
 </html>
