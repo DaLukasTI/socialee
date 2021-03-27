@@ -11,14 +11,16 @@
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
 
 </head>
-<body class="hold-transition register-page">
+<body class="hold-transition register-page" style="background-color: #518989;">
 <div class="register-box">
-    <div class="card card-outline card-primary">
-        <div class="card-header text-center">
-            <a href="/" class="h1"><b>Socialee</b></a>
+    <div class="card card-outline">
+        <div class="card-header text-center" style="background-color: #70BEBE;">
+            <div class="image">
+                <img src="{{asset('img/logo.png')}}" alt="Logo">
+            </div>
         </div>
         <div class="card-body">
-            <p class="login-box-msg">Register a new membership</p>
+            <p class="login-box-msg" style="color: white;">Register a new membership</p>
 
             <form action="{{ route('register') }}" method="POST">
                 @csrf
@@ -32,8 +34,8 @@
                             </span>
                     @enderror
                     <div class="input-group-append">
-                        <div class="input-group-text">
-                            <span class="fas fa-user"></span>
+                        <div class="input-group-text" style="background-color: #70BEBE;">
+                            <span class="fas fa-user" style="color: white;"></span>
                         </div>
                     </div>
                 </div>
@@ -48,8 +50,8 @@
                                     </span>
                     @enderror
                     <div class="input-group-append">
-                        <div class="input-group-text">
-                            <span class="fas fa-envelope"></span>
+                        <div class="input-group-text" style="background-color: #70BEBE;">
+                            <span class="fas fa-envelope" style="color: white;"></span>
                         </div>
                     </div>
                 </div>
@@ -64,8 +66,8 @@
                                     </span>
                     @enderror
                     <div class="input-group-append">
-                        <div class="input-group-text">
-                            <span class="fas fa-lock"></span>
+                        <div class="input-group-text" style="background-color: #70BEBE;">
+                            <span class="fas fa-lock" style="color: white;"></span>
                         </div>
                     </div>
                 </div>
@@ -74,21 +76,21 @@
                     <input id="password-confirm" type="password" class="form-control" placeholder="{{ __('Confirm Password') }}" name="password_confirmation"
                            required autocomplete="new-password">
                     <div class="input-group-append">
-                        <div class="input-group-text">
-                            <span class="fas fa-lock"></span>
+                        <div class="input-group-text" style="background-color: #70BEBE;">
+                            <span class="fas fa-lock" style="color: white;"></span>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <!-- /.col -->
                     <div class="col">
-                        <button type="submit" class="btn btn-danger btn-block">{{ __('Register') }}</button>
+                        <button type="submit" class="btn btn-block" style="background-color: #70BEBE; color: white;">{{ __('Register') }}</button>
                     </div>
                     <!-- /.col -->
                 </div>
             </form>
 
-            <a href="/login" class="text-center">I already have a membership</a>
+            <a href="/login" class="text-center" style="color: #70BEBE;">I already have a membership</a>
         </div>
         <!-- /.form-box -->
     </div><!-- /.card -->
