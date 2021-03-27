@@ -2,20 +2,20 @@
 @section('content')
     <br>
     <div class="col-12">
-        <div class="card card-primary card-outline card-tabs">
+        <div class="" >
             <div class="card-header p-0 pt-1 border-bottom-0">
-                <ul class="nav nav-tabs" id="custom-tabs-two-tab" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="custom-tabs-two-home-tab" data-toggle="pill" href="#custom-tabs-two-home" role="tab" aria-controls="custom-tabs-two-home" aria-selected="true"><i class="fab fa-twitter"></i> Twitter</a>
+                <ul class="nav nav-tabs" id="custom-tabs-two-tab" style="border-color: white;" role="tablist">
+                    <li class="nav-item col-2 text-center">
+                        <a class="nav-link active" style="color:#70BEBE; border-color: white;" id="custom-tabs-two-home-tab" data-toggle="pill" href="#custom-tabs-two-home" role="tab" aria-controls="custom-tabs-two-home" aria-selected="true"><i class="fab fa-twitter fa-2x"></i><p style="color:black;" class="col-md-12">Twitter</p></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="custom-tabs-two-profile-tab" data-toggle="pill" href="#custom-tabs-two-profile" role="tab" aria-controls="custom-tabs-two-profile" aria-selected="false"><i class="fab fa-facebook"></i> Facebook</a>
+                    <li class="nav-item col-2 text-center">
+                        <a class="nav-link" style="color:#70BEBE; border-color: white;" id="custom-tabs-two-profile-tab" data-toggle="pill" href="#custom-tabs-two-profile" role="tab" aria-controls="custom-tabs-two-profile" aria-selected="false"><i class="fab fa-facebook fa-2x"></i><p style="color:black;">Facebook</p></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="custom-tabs-two-messages-tab" data-toggle="pill" href="#custom-tabs-two-messages" role="tab" aria-controls="custom-tabs-two-messages" aria-selected="false"><i class="fab fa-instagram"></i> Instagram</a>
+                    <li class="nav-item col-2 text-center">
+                        <a class="nav-link" style="color:#70BEBE; border-color: white;"id="custom-tabs-two-messages-tab" data-toggle="pill" href="#custom-tabs-two-messages" role="tab" aria-controls="custom-tabs-two-messages" aria-selected="false"><i class="fab fa-instagram fa-2x"></i><p style="color:black;">Instagram</p></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="custom-tabs-two-settings-tab" data-toggle="pill" href="#custom-tabs-two-settings" role="tab" aria-controls="custom-tabs-two-settings" aria-selected="false"><i class="fab fa-youtube"></i> Youtube</a>
+                    <li class="nav-item col-2 text-center">
+                        <a class="nav-link" style="color:#70BEBE; border-color: white;" id="custom-tabs-two-settings-tab" data-toggle="pill" href="#custom-tabs-two-settings" role="tab" aria-controls="custom-tabs-two-settings" aria-selected="false"><i class="fab fa-youtube fa-2x"></i><p style="color:black;">Youtube</p></a>
                     </li>
                 </ul>
             </div>
@@ -24,34 +24,48 @@
                     <div class="tab-pane fade show active" id="custom-tabs-two-home" role="tabpanel" aria-labelledby="custom-tabs-two-home-tab">
                         <div class="row">
                             <div class="col-12">
-                                <div class="card">
+                                <div class="border-0">
 
                                     <!-- /.card-header -->
-                                    <div class="card-body table-responsive p-0">
-                                        <table class="table table-hover">
-                                            <thead>
-                                            <tr>
-                                                <th>Author</th>
-                                                <th>Tweet</th>
-                                                <th>Likes</th>
-                                                <th>Follows</th>
-                                                <th>Retweet</th>
-                                                <th>Posted at</th>
-                                                <th>Actions</th>
-                                            </tr>
-                                            </thead>
+                                    <div class="card-body table-responsive p-0" style="border-radius: 20px">
+                                        <table class="table" style="background-color:#D1EBEB; color: black;">
                                             <tbody>
                                             <tr>
-                                                <td>Socialee</td>
-                                                <td>YAAA YYEEEET</td>
-                                                <td>12</td>
-                                                <td>7</td>
-                                                <td>2</td>
-                                                <td>27/04/2222</td>
+                                                <td><p>Author</p><strong>Socialee</strong></td>
+                                                <td><p>Tweet</p><strong>YAAA YYEEEET</strong></td>
+                                                <td><p>12Likes</p><strong>12</strong></td>
+                                                <td><p>Follows</p><strong>7</strong></td>
+                                                <td><p>Retweet</p><strong>2</strong></td>
+                                                <td><p>Posted at</p><strong>27/04/2222</strong></td>
                                                 <td>
-                                                    <button type="button" class="btn btn-default">Analytics</button>
-                                                    <button type="button" class="btn btn-default">Open in Browser</button>
-                                                    <button type="button" class="btn btn-danger">Delete</button>
+
+                                                    <p class="text-center">
+                                                    <p></p>
+                                                    <button type="button" class="btn btn-default" style="background-color:#70BEBE; color: white; border-radius: 15px; border-color:#70BEBE ">Analytics</button>
+                                                    <button type="button" class="btn btn-default" style="background-color:#70BEBE; color: white; border-radius: 15px; border-color:#70BEBE ">Open in Browser</button>
+                                                    <button type="button" class="btn btn-danger" >Delete</button>
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                        <table class="table" style="background-color:#B5DFDF; color: black;">
+                                            <tbody>
+                                            <tr>
+                                                <td><p>Author</p><strong>Socialee</strong></td>
+                                                <td><p>Tweet</p><strong>YAAA YYEEEET</strong></td>
+                                                <td><p>12Likes</p><strong>12</strong></td>
+                                                <td><p>Follows</p><strong>7</strong></td>
+                                                <td><p>Retweet</p><strong>2</strong></td>
+                                                <td><p>Posted at</p><strong>27/04/2222</strong></td>
+                                                <td>
+
+                                                    <p class="text-center">
+                                                    <p></p>
+                                                    <button type="button" class="btn btn-default" style="background-color:#70BEBE; color: white; border-radius: 15px; border-color:#70BEBE ">Analytics</button>
+                                                    <button type="button" class="btn btn-default" style="background-color:#70BEBE; color: white; border-radius: 15px; border-color:#70BEBE ">Open in Browser</button>
+                                                    <button type="button" class="btn btn-danger" >Delete</button>
+                                                    </p>
                                                 </td>
                                             </tr>
                                             </tbody>
