@@ -74,32 +74,32 @@
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
                                 <a href="/home" class="nav-link" style="color: white;">
-                                    <i class="far fa-circle nav-icon"></i>
                                     <p >Dashboard</p>
+                                    <i class="fas fa-columns nav-icon float-right"></i>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="/post" class="nav-link" style="color: white;">
-                                    <i class="far fa-circle nav-icon"></i>
                                     <p>New Post</p>
+                                    <i class="fas fa-plus-circle nav-icon float-right"></i>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="/addpost" class="nav-link" style="color: white;">
-                                    <i class="far fa-circle nav-icon"></i>
                                     <p>Add Post</p>
+                                    <i class="fas fa-plus-circle nav-icon float-right"></i>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="/timeline" class="nav-link" style="color: white;">
-                                    <i class="far fa-circle nav-icon"></i>
                                     <p>Timeline</p>
+                                    <i class="fas fa-stream nav-icon float-right"></i>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="/settings" class="nav-link" style="color: white;">
-                                    <i class="far fa-circle nav-icon"></i>
                                     <p>Settings</p>
+                                    <i class="fas fa-cog nav-icon float-right"></i>
                                 </a>
                             </li>
                         </ul>
