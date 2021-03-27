@@ -2,6 +2,11 @@
 @section('content')
     <br>
     <div class="col-12">
+
+        <button type="button" href="#" class="btn btn-default btn-lg" style="background-color: white; color: #70BEBE; border-radius: 15px; border-color:#70BEBE;">Refresh post data</button>
+        <br>
+
+        <br>
         <div class="" >
             <div class="card-header p-0 pt-1 border-bottom-0">
                 <ul class="nav nav-tabs" id="custom-tabs-two-tab" style="border-color: white;" role="tablist">
