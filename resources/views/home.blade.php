@@ -37,7 +37,7 @@
                                                 <th>Follows</th>
                                                 <th>Retweet</th>
                                                 <th>Posted at</th>
-                                                <th>Action</th>
+                                                <th>Actions</th>
                                             </tr>
                                             </thead>
                                             <tbody>
@@ -51,6 +51,7 @@
                                                 <td>
                                                     <button type="button" class="btn btn-default">Analytics</button>
                                                     <button type="button" class="btn btn-default">Open in Browser</button>
+                                                    <button type="button" class="btn btn-danger">Delete</button>
                                                 </td>
                                             </tr>
                                             </tbody>

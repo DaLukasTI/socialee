@@ -41,6 +41,10 @@
                                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tMWkeBIohBs" allowfullscreen="" frameborder="0"></iframe>
                             </div>
                         </div>
+                        <div class="timeline-footer">
+                            <a class="btn btn-primary btn-sm">Read more</a>
+                            <a class="btn btn-danger btn-sm">Delete</a>
+                        </div>
                     </div>
                 </div>
                 <!-- END timeline item -->
@@ -56,7 +60,7 @@
                             We are more like Germany, ambitious and misunderstood!
                         </div>
                         <div class="timeline-footer">
-                            <a class="btn btn-warning btn-sm">View comment</a>
+                            <a class="btn btn-primary btn-sm">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -79,6 +83,10 @@
                             <img src="http://placehold.it/150x100" alt="...">
                             <img src="http://placehold.it/150x100" alt="...">
                         </div>
+                    <div class="timeline-footer">
+                        <a class="btn btn-primary btn-sm">Read more</a>
+                        <a class="btn btn-danger btn-sm">Delete</a>
+                    </div>
                     </div>
                 </div>
                 <!-- END timeline item -->
