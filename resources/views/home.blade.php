@@ -3,7 +3,7 @@
     <br>
     <div class="col-12">
 
-        <button type="button" href="#" class="btn btn-default btn-lg" style="background-color: white; color: #70BEBE; border-radius: 15px; border-color:#70BEBE;">Refresh post data</button>
+      <a href="/updateposts" >  <button type="button"  class="btn btn-default btnlg" style="background-color: white; color: #70BEBE; border-radius: 15px; border-color:#70BEBE;">Refresh post data</button></a>
         <br>
 
         <br>
@@ -35,12 +35,14 @@
                                     <div class="card-body table-responsive p-0" style="border-radius: 20px">
                                         <table class="table table-toon">
                                             <tbody>
+                                            @foreach($posts as $post)
                                             <tr>
+
                                                 <td><p>Author</p><strong>Socialee</strong></td>
-                                                <td><p>Tweet</p><strong>YAAA YYEEEET</strong></td>
-                                                <td><p>12Likes</p><strong>12</strong></td>
-                                                <td><p>Follows</p><strong>7</strong></td>
-                                                <td><p>Retweet</p><strong>2</strong></td>
+                                                <td><p>Tweet</p><strong>{{$post->post_body}}</strong></td>
+                                                <td><p>Likes</p><strong>{{$post->favourites}}</strong></td>
+                                                <td><p>Retweet</p><strong>{{$post->retweets}}</strong></td>
+                                                <td><p>image</p>@if($post->getFirstMediaUrl() != null)<img src="{{$post->getFirstMediaUrl()}}" alt="Smiley face" height="128" width="128">@else NO IMAGE @endif</td>
                                                 <td><p>Posted at</p><strong>27/04/2222</strong></td>
                                                 <td>
 
@@ -52,23 +54,7 @@
                                                     </p>
                                                 </td>
                                             </tr>
-                                            <tr>
-                                                <td><p>Author</p><strong>Socialee</strong></td>
-                                                <td><p>Tweet</p><strong>YAAA YYEEEET</strong></td>
-                                                <td><p>12Likes</p><strong>12</strong></td>
-                                                <td><p>Follows</p><strong>7</strong></td>
-                                                <td><p>Retweet</p><strong>2</strong></td>
-                                                <td><p>Posted at</p><strong>27/04/2222</strong></td>
-                                                <td>
-
-                                                    <p class="text-center">
-                                                    <p></p>
-                                                    <button type="button" class="btn btn-default" style="background-color:#70BEBE; color: white; border-radius: 15px; border-color:#70BEBE ">Analytics</button>
-                                                    <button type="button" class="btn btn-default" style="background-color:#70BEBE; color: white; border-radius: 15px; border-color:#70BEBE ">Open in Browser</button>
-                                                    <button type="button" class="btn btn-danger" >Delete</button>
-                                                    </p>
-                                                </td>
-                                            </tr>
+                                            @endforeach
                                             </tbody>
                                         </table>
                                     </div>

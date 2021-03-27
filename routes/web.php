@@ -23,9 +23,15 @@ Route::get('/', function () {
     return view('auth.login');
 });
 
-Route::get('/home', [HomeController::class, 'index'])->name('Home')->middleware('auth');
-Route::get('/post', [PostController::class, 'index'])->name('Post')->middleware('auth');
-Route::get('/addpost', [AddPostController::class, 'index'])->name('addpost')->middleware('auth');;
-Route::get('/settings', [SettingsController::class, 'index'])->name('addpost')->middleware('auth');
-Route::get('/timeline', [TimelineController::class, 'index'])->name('timeline')->middleware('auth');
-Route::get('/analytics', [AnalyticsController::class, 'index'])->name('analytics')->middleware('auth');
+Route::group(
+    ['middleware' => 'auth'],
+    function () {
+        Route::get('/home', [HomeController::class, 'index'])->name('Home');
+        Route::get('/post', [PostController::class, 'index'])->name('Post');
+        Route::get('/addpost', [AddPostController::class, 'index'])->name('addpost');
+        Route::get('/updateposts', [HomeController::class, 'updatePost'])->name('updateposts');
+        Route::get('/settings', [SettingsController::class, 'index'])->name('addpost');
+        Route::get('/timeline', [TimelineController::class, 'index'])->name('timeline');
+        Route::get('/analytics', [AnalyticsController::class, 'index'])->name('analytics');
+    });
+
