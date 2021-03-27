@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="card-footer">
-                <button wire:click.prevent="postTweet" class="btn btn-primary">Submit</button>
+                <button wire:click.prevent="postTweet" class="btn btn-primary" style="background-color:#70BEBE; color: white; border-radius: 15px; border-color:#70BEBE ">Submit</button>
             </div>
         </form>
     </div>
