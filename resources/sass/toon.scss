@@ -1,0 +1,8 @@
+.table-toon{
+    tr:nth-child(even){
+    background-color:#B5DFDF;
+    }
+    tr:nth-child(odd){
+    background-color:#D1EBEB;
+    }
+}
