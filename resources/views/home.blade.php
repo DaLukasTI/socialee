@@ -28,7 +28,7 @@
 
                                     <!-- /.card-header -->
                                     <div class="card-body table-responsive p-0" style="border-radius: 20px">
-                                        <table class="table" style="background-color:#D1EBEB; color: black;">
+                                        <table class="table table-toon">
                                             <tbody>
                                             <tr>
                                                 <td><p>Author</p><strong>Socialee</strong></td>
@@ -47,10 +47,6 @@
                                                     </p>
                                                 </td>
                                             </tr>
-                                            </tbody>
-                                        </table>
-                                        <table class="table" style="background-color:#B5DFDF; color: black;">
-                                            <tbody>
                                             <tr>
                                                 <td><p>Author</p><strong>Socialee</strong></td>
                                                 <td><p>Tweet</p><strong>YAAA YYEEEET</strong></td>
