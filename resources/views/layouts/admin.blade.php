@@ -34,6 +34,9 @@
                 <a href="/addpost" class="nav-link">Add Post</a>
             </li>
             <li class="nav-item d-none d-sm-inline-block">
+                <a href="/timeline" class="nav-link">Timeline</a>
+            </li>
+            <li class="nav-item d-none d-sm-inline-block">
                 <a href="/settings" class="nav-link">Settings</a>
             </li>
         </ul>
@@ -105,6 +108,12 @@
                                 <a href="/addpost" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Add Post</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/timeline" class="nav-link">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Timeline</p>
                                 </a>
                             </li>
                             <li class="nav-item">
