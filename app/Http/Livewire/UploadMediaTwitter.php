@@ -35,6 +35,7 @@ class UploadMediaTwitter extends Component
             )->addMedia($this->tweetMedia->path())->usingFileName(
                 $this->tweetMedia->getClientOriginalName()
             )->toMediaCollection();
+
             TwitterService::createTwitterPostWithMedia($post,$this->tweetBody);
         }else{
             $post = TwitterPost::Create(
@@ -44,8 +45,6 @@ class UploadMediaTwitter extends Component
             );
             TwitterService::createTwitterPost($post);
         }
-ray($post);
-
 
         $this->redirect('/post');
     }
