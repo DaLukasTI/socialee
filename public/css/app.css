@@ -59144,3 +59144,7 @@ readers do not read off random characters that represent icons */
 .table-toon tr:nth-child(odd) {
   background-color: #D1EBEB;
 }
+
+.active {
+  background-color: white;
+}
