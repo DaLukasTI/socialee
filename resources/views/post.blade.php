@@ -22,32 +22,7 @@
             <div class="card-body col-5">
                 <div class="tab-content" id="custom-tabs-two-tabContent">
                     <div class="tab-pane fade show active" id="custom-tabs-two-home" role="tabpanel" aria-labelledby="custom-tabs-two-home-tab">
-                        <div class="card card-primary">
-                            <!-- /.card-header -->
-                            <!-- form start -->
-                            <form role="form" action="#" method="post">
-                                <div class="card-body">
-                                    <div class="form-group">
-                                        <label for="exampleInputPassword1">Tweet</label>
-                                        <textarea rows="4" cols="50" placeholder="Tweet..." class="form-control"></textarea>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="exampleInputFile">File input</label>
-                                        <div class="input-group">
-                                            <div class="custom-file">
-                                                <input type="file" class="custom-file-input" id="exampleInputFile">
-                                                <label class="custom-file-label" for="exampleInputFile">Choose file</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /.card-body -->
-
-                                <div class="card-footer">
-                                    <button type="submit" class="btn btn-primary" style="background-color:#70BEBE; color: white; border-radius: 15px; border-color:#70BEBE ">Submit</button>
-                                </div>
-                            </form>
-                        </div>
+                        @livewire('upload-media-twitter')
                     </div>
                     <div class="tab-pane fade" id="custom-tabs-two-profile" role="tabpanel" aria-labelledby="custom-tabs-two-profile-tab">
                         Soon!
@@ -63,4 +38,6 @@
             <!-- /.card -->
         </div>
     </div>
+
+
 @endsection
