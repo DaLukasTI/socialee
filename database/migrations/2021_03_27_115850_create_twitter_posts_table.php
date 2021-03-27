@@ -15,10 +15,10 @@ class CreateTwitterPostsTable extends Migration
     {
         Schema::create('twitter_posts', function (Blueprint $table) {
             $table->id();
-            $table->integer('tweet_id')->nullable()->default(null);
+            $table->bigInteger('tweet_id')->nullable()->default(null);
             $table->string('post_body');
-            $table->integer('favourites')->nullable()->default(null);
-            $table->integer('retweets')->nullable()->default(null);
+            $table->bigInteger('favourites')->nullable()->default(null);
+            $table->bigInteger('retweets')->nullable()->default(null);
             $table->timestamps();
         });
     }
