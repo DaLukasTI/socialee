@@ -70,11 +70,7 @@
                 @csrf
             </form>
             <!-- SidebarSearch Form -->
-            <div class="form-inline">
-                <div class="input-group" data-widget="sidebar-search">
 
-                </div>
-            </div>
 
             <!-- Sidebar Menu -->
             <nav class="mt-2">
@@ -141,6 +137,6 @@
 </div>
 
 @livewireScripts
-<script src="{{ asset('js/app.js') }}" defer></script>
+<script src="{{ asset( mix('js/app.js')) }}" defer></script>
 </body>
 </html>
