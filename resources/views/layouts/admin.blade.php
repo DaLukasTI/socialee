@@ -18,7 +18,7 @@
     </div>
 
     <!-- Navbar -->
-    <nav class="main-header navbar navbar-expand">
+    <nav class="main-header navbar navbar-expand bg-white">
         <!-- Left navbar links -->
 
         <!-- Right navbar links -->
