@@ -74,9 +74,8 @@
     <!-- Main Sidebar Container -->
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
         <!-- Brand Logo -->
-        <a href="index3.html" class="brand-link">
-            <img src="img/logo.png" alt="AdminLTE Logo" style="opacity: .8; width:60px;">
-            <span class="brand-text font-weight-light pl-3">SOCIALEE</span>
+        <a href="index3.html" class="brand-link text-center" style="background-color: #70BEBE;">
+            <img src="img/logo.png" alt="Logo" style="opacity: .8; width:60px;">
         </a>
 
         <!-- Sidebar -->
